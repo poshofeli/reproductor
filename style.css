@@ -1,0 +1,12 @@
+*{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+    cursor: url(/reproductor-1/assets/icons8-cursor.svg), auto;
+    box-sizing: border-box;
+}
