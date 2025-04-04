@@ -7,6 +7,17 @@
     padding: unset;
     border: unset;
     outline: unset;
-    cursor: url(/reproductor-1/assets/icons8-cursor.svg), auto;
+   cursor: url(/assets/my-mouse-pointer.png), auto;
     box-sizing: border-box;
+    cursor: pointer url("/assets/Ellipse 1.svg"), auto;
 }
+
+body{
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(180deg, #070101, #747171cc ,#ffffffdb,#f70a0af3); 
+}
+
+.boton:hover{
+    opacity: 0.1;
+    }
