@@ -1,0 +1,70 @@
+.reproduciendo {
+    background-color: #0200009a;
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    border-radius: 8%;
+    box-sizing: border-box;
+    gap: 10px;
+    margin: 0 auto;
+    box-shadow: -1px -1px 35px 3px rgba(255, 0, 0, 0.801);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.botones img:hover {
+    
+    cursor: url(/assets/icons8-cursor.svg), auto;
+}
+
+.cancion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.cancion img {
+    width: 100%;
+    max-width: 100%;
+
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.cancion h1 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 100%;
+    max-height: 100%;
+}

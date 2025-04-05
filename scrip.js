@@ -12,7 +12,7 @@ function peticion(info) {
 function renderizarMusica(info) {
 
     const div = document.createElement("div")
-    div.setAttribute("class", "")
+    div.setAttribute("class", "musicas")
 
     div.innerHTML = `
     <img src="/assets/Frame 5.svg" alt="">
