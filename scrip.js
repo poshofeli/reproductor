@@ -15,12 +15,15 @@ function renderizarMusica(info) {
     div.setAttribute("class", "musicas")
 
     div.innerHTML = `
-    <img src="/assets/Frame 5.svg" alt="">
-            <h3>musica</h3>
+    <img src="${info.image.url}" alt="">
+            <h3>${info.title}</h3>
+
             `
     contenedor.appendChild(div)
 
-}
+} 
+
+
 
 
 axios.get("https://api.institutoalfa.org/api/songs")

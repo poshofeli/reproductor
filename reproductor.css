@@ -30,8 +30,7 @@
 }
 
 .botones img:hover {
-    
-    cursor: url(/assets/icons8-cursor.svg), auto;
+   opacity: 50%;
 }
 
 .cancion {
