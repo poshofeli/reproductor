@@ -28,13 +28,11 @@ body {
 .caja::-webkit-scrollbar {
     width: 10px;
     background-color: #00000000;
-    cursor: url(/assets/icons8-cursor.svg), auto;
 }
 
 .caja::-webkit-scrollbar-thumb {
     background-color: #000000;
     border-radius: 10px;
-    cursor: url(/assets/icons8-cursor.svg), auto;
 }
 
 .caja {
@@ -44,7 +42,6 @@ body {
     gap: 15px;
     overflow-y: auto; 
     justify-content: center;
-    align-items: center;
     background-color: #fcfcfc52;
     padding: 15px 5px;
     border-radius: 5%;
@@ -63,10 +60,10 @@ body {
     background-color: rgba(201, 138, 138, 0.952);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-wrap: nowrap;
-    width: 100%;
+    width: auto;
     max-width: 135px;
     min-width: 135px;
     height: auto;
@@ -78,7 +75,7 @@ body {
 
 .caja img {
     border-radius: unset;
-    width: auto;
+    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 10%;
@@ -94,4 +91,10 @@ body {
     background-color: rgba(240, 6, 6, 0.904);
     box-shadow: -1px -1px 11px 4px rgba(31,27,27,1);
     transition: all 0.3s ease-in-out;
+}
+
+.musicas:hover
+{background-color: rgba(240, 6, 6, 0.426);
+box-shadow: -1px -1px 11px 4px rgba(31, 27, 27, 0.781);
+transition: all 0.3s ease-in-out;
 }

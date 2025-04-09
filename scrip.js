@@ -15,12 +15,24 @@ function renderizarMusica(info) {
     div.setAttribute("class", "musicas")
 
     div.innerHTML = `
-    <img src="/assets/Frame 5.svg" alt="">
-            <h3>musica</h3>
+    <img src="${info.image.url}" alt="">
+            <h3>${info.title}</h3>
             `
+    div.addEventListener("click", function (){
+        sonar(info)})
     contenedor.appendChild(div)
 
 }
+
+function sonar(info) {
+    const tiempo = document.getElementById("tiempo").setAttribute("src" , info.audio.url)
+
+   document.getElementById("image").setAttribute("src" , info.image.url)
+
+   document.getElementById("titulo").innerHTML =info.title
+}
+
+
 
 
 axios.get("https://api.institutoalfa.org/api/songs")

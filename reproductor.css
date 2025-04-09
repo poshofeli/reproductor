@@ -30,8 +30,8 @@
 }
 
 .botones img:hover {
-    
-    cursor: url(/assets/icons8-cursor.svg), auto;
+    transform: scale(1.2);
+   opacity: 50%;
 }
 
 .cancion {
@@ -50,9 +50,6 @@
 }
 
 .cancion img {
-    width: 100%;
-    max-width: 100%;
-
     width: auto;
     height: auto;
     border-radius: 5%;
@@ -65,6 +62,4 @@
     font-weight: bold;
     text-align: center;
     word-wrap: break-word;
-    max-width: 100%;
-    max-height: 100%;
 }
